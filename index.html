@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="./jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<script>
+var d, url = "http://localhost:8080/";
+var jsonIn = $.getJSON( url, function() {})
+jsonIn.always(function() {
+  d = $.parseJSON(jsonIn.responseJSON)
+  console.log(d);
+});
+</script>
+</body>
+</html>
