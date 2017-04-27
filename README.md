@@ -4,12 +4,10 @@
 
 Install node.js if not already, then:
 
-'''
-git clone geotheory/node-r-api
-cd node-r-api
-npd install restify
-npd install child_process
-'''
+    git clone geotheory/node-r-api
+    cd node-r-api
+    npd install restify
+    npd install child_process
 
 ## To run
 
